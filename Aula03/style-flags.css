@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+/* .content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+#flags {
+    width: 100vw;
+    height: 300px;
+    background: rgb(250, 249, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.bg-white {
+    background-color: white;
+}
+.flag {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#japan {
+    width: 60px;
+    height: 60px;
+    background: red;
+    border-radius: 100%;
+}
+
+#bar-red {
+    width: 40px;
+    height: 100%;
+    background: red;
+
+}
+
+#bar-green {
+    width: 40px;
+    height: 100%;
+    background: green;
+        
+}
+
+#bar-white {
+    width: 40px;
+    height: 100%;
+    background: white;
+        
+}
+
+#bar-blue {
+    width: 40px;
+    height: 100%;
+    background: blue;
+        
+}
+
+#bar-red-horizontal {
+    width: 120px;
+    height: 40px;
+    background: red;
+}
+
+#bar-yellow-horizontal {
+    width: 120px;
+    height: 40px;
+    background: yellow;
+}
+
+#bar-black-horizontal {
+    width: 120px;
+    height: 40px;
+    background: black;
+}
+
+.flag-horizontal {
+    display: flex;
+    flex-direction: column;
+}
