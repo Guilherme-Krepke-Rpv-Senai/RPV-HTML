@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+    grid-template-areas: 
+    "header header header header"
+    "menu-l timeline timeline menu-r"
+    "menu-l timeline timeline menu-r"
+    "menu-l timeline timeline menu-r"
+    ;
+}
+
+.contorno{
+    border: 1px solid black;
+}
+#header{
+    grid-area: header;
+    background: white;
+}
+#menu-left{
+    grid-area: menu-l;
+    background: white;
+}
+#content{
+    grid-area: timeline;
+    background: white;
+}
+#menu-right{
+    grid-area: menu-r;
+    background: white;
+}
