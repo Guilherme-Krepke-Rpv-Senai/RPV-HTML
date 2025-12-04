@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-ext{
+    width: 500px;
+    height: 700px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.FOTO{
+    width: 100%;
+    height: 450px;
+    /* background: wheat; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url(https://images.tcdn.com.br/img/img_prod/940183/calca_pantalona_terra_181_1_e3c5d9b4e4fce3956f33cab2ba3ac7c9.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: cover;
+}
+
+.picbot{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    gap: 2px;
+    
+}
+.box1{
+    width: 20px;
+    height: 20px;
+    background: rgb(253, 129, 129);
+    border-radius: 50%;
+}
+.box2{
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+}
+.box3{
+    width: 20px;
+    height: 20px;
+    background: rgb(253, 129, 129);
+    border-radius: 50%;
+}
+.box4{
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+}
+
+#nameprod{
+    width: 100%;
+    height: 50px;
+    /* background: aqua; */
+    padding-left: 20px;
+    color: orange;
+    
+}
+
+#valueprod{
+    width: 100%;
+    height: 50px;
+    /* background: green; */
+    padding-left: 20px;
+}
+
+#descrprod{
+    width: 100%;
+    height: 70px;
+    /* background: purple; */
+    padding-left: 20px;
+}
