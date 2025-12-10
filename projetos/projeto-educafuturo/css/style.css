@@ -1,0 +1,64 @@
+:root{
+    font-size: 62.5%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    border: 1px solid greenyellow;
+}
+
+.logo{
+    font-size: 3.6rem;
+    color: #fafafa;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    background: #202020;
+    height: 80px;
+    position: sticky;
+
+
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #fafafa;
+    transition: all 0.3s ease;
+    &:hover{
+        color: #ff0000;
+        border-bottom: 1px solid #ff0000;
+    }
+}
+
+section{
+    height: calc(100vh - 80px);
+}
+
+.bg1{
+    background: #f3f3f3;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
